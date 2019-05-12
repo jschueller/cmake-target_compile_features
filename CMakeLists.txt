@@ -10,6 +10,6 @@ add_executable (hello main.cxx)
 target_compile_features(hello
          PUBLIC
             cxx_lambdas)
-#             cxx_auto_type)
+            cxx_auto_type)
 
 install (TARGETS hello DESTINATION bin)
