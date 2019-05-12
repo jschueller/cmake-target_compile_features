@@ -11,14 +11,14 @@ target_compile_features(hello
          PUBLIC 
 #             cxx_rvalue_references
 #             cxx_variadic_templates
-            cxx_lambdas
-            cxx_nullptr
+#             cxx_lambdas
+#             cxx_nullptr
 #             cxx_defaulted_move_initializers
 #             cxx_delegating_constructors
 #             cxx_thread_local
 #             cxx_constexpr
 #             cxx_decltype_incomplete_return_types
-)
-#             cxx_auto_type)
+# )
+            cxx_auto_type)
 
 install (TARGETS hello DESTINATION bin)
