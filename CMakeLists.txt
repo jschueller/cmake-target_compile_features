@@ -14,7 +14,7 @@ target_compile_features(hello
             cxx_lambdas
             cxx_defaulted_move_initializers
             cxx_delegating_constructors
-            cxx_thread_local
+#             cxx_thread_local
             cxx_constexpr
             cxx_decltype_incomplete_return_types
             cxx_auto_type)
