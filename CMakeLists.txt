@@ -9,8 +9,8 @@ project (hello)
 add_executable (hello main.cxx)
 target_compile_features(hello
          PUBLIC 
-            cxx_rvalue_references
-            cxx_variadic_templates
+#             cxx_rvalue_references
+#             cxx_variadic_templates
             cxx_lambdas
             cxx_defaulted_move_initializers
             cxx_delegating_constructors
